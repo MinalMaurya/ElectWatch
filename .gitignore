@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Raw dataset (download separately)
+data/household_power_consumption.txt
+
+# Generated visualizations
+daily_consumption.html
+hourly_consumption.html
+monthly_consumption.html
+
+# Database files
+*.db
+*.sqlite3
